@@ -337,4 +337,39 @@ header img {
     max-width: 400px;
   }
 
+  .section-7 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-top: 40px;
+    align-items: top;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
   
+  .section-7 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .section-7 h2 {
+    padding-right: 30px;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
+  .section-7 .images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .section-7 .images img {
+    max-width: 250px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
