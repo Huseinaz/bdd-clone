@@ -291,4 +291,50 @@ header img {
     font-size: 20px;
   }
 
+  .section-6 {
+    position: sticky; 
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: url('../assets/bg-icon-empty.png');
+    background-color: #ececec;
+  }
+  .section-6 h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 20px;
+  }
+  .section-6 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 20px;
+  }
+
+  .section-6 .trending-card {
+    text-align: start;
+    background-color: #f0f0f0;
+  }
+  .section-6 .trending-card h3 {
+    max-width: 300px;
+    padding: 20px;
+  }
+  .section-6 .trending-card p {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+  }
+
+  .section-6 .trending-card .trending-content {
+    border-bottom: 1px solid #000000b4;
+  }
+  .section-6 .trending-card img {
+    width: 350px;
+    max-width: 400px;
+  }
+
   
