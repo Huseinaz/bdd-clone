@@ -20,11 +20,11 @@
 }
 
 .hero h1 {
+    text-transform: uppercase;
     text-align: center; 
-    font-weight: 800;
-    font-size: 2.5rem;
+    font-weight: 600;
+    font-size: 38px;
     color: white;
-    font-family: "Poppins", sans-serif;
 }
 
 .main-header {
@@ -51,20 +51,21 @@
 
 header img {
     margin-top: 10px;
-    max-width: 94px;
+    max-width: 100px;
 }
 
 .nav-links {
     display: flex;
+    align-items: center;
     gap: 20px;
+    text-transform: uppercase;
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
     font-weight: 400;
-    font-size: 1.1rem;
-    font-family: "Poppins", sans-serif;
+    font-size: 15px;
 }
 
 .section-2 {
@@ -76,42 +77,39 @@ header img {
   }
   .section-2 h2 {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 30px;
     font-weight: 900;
-    color: #000000;
-    font-family: "Poppins", sans-serif;
+    color: #000;
   }
   .section-2 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
     gap: 20px;
     padding: 10px;
   }
   
-  .card {
+  .section-2 .cards .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border: 2px solid white;
     background-color: white;
+    width: 300px;
     height: 500px;
-    padding: 20px;
   }
   
   .card span {
+    padding-top: 20px;
     font-size: 1.3rem;
     font-weight: 800;
-    color: #000000;
-    font-family: "Poppins", sans-serif;
+    color: #000;
   }
   
   .card p {
+    padding-top: 20px;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
     color: #807f7f;
-    font-family: "Poppins", sans-serif;
   }
 
 .section-3 {
@@ -123,7 +121,6 @@ header img {
     width: 100%;
     gap: 10px;
     background: url('../assets/explore-the-vision/Shared-Space-at-BDD.png') no-repeat center center/cover;
-
     background-color: #323232;
 
 }
@@ -147,7 +144,6 @@ header img {
     text-align: center;
     font-size: 2.4rem;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
     color: white;
     padding-top: 30px;
 }
@@ -171,7 +167,7 @@ header img {
     gap: 10px;
   }
   .section-4 .container .img > img {
-    width: 500px;
+    width: 450px;
   }
   .section-4 .container .cards {
     display: flex;
@@ -192,7 +188,7 @@ header img {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     scale: 1;
   }
-  .section-4 .cards .card:hover .primary-btn {
+  .section-4 .cards .card:hover .btn-primary {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -206,7 +202,6 @@ header img {
   .section-4 .cards .info li {
     display: flex;
     color: #646464;
-    justify-content: center;
     gap: 5px;
     margin-bottom: 10px;
     line-height: 1.5;
@@ -235,4 +230,65 @@ header img {
   .section-4 .download-app .images{
     display: flex;
     gap: 50px;
+    padding-bottom: 50px;
   }
+
+  .section-5 {
+    position: sticky; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: url('../assets/preferred hub for/parallax-light.jpg') no-repeat center center/cover;
+    background-color: #323232;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section-5 h2 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section-5 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    padding-bottom: 40px;
+  }
+
+  .section-5 .container .counter {
+    text-align: center;
+
+  }
+  .section-5 .container .counter img {
+    width: 80px;
+    max-width: 100px;
+  }
+
+  .section-5 .container .counter h3 {
+    font-size: 23px;
+  }
+
+  .section-5 .container .counter .counter-1 {
+    color: #009A9E;
+  }
+  .section-5 .container .counter .counter-2 {
+    color: #E13870;
+  }
+  .section-5 .container .counter .counter-3 {
+    color: #0078BE;
+  }
+  .section-5 .container .counter .counter-4 {
+    color: #00802D;
+  }
+
+  .section-5 .container .counter p {
+    font-size: 20px;
+  }
+
+  

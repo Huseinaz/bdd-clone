@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .color-primary {
-  color: #0078be;
+  color: #000;
 }
 
 .btn-primary {
